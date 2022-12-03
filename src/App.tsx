@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />}>
           <Route index element={<HomePage />} />
-          <Route path="index" element={<HomePage />} />
+          <Route path="/sign" element={<HomePage />} />
         </Route>
       </Routes>
       
